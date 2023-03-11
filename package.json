@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "a basic calculator for practicing node js",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start_dev": "npx nodemon node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monybaruch/Calculator.git"
+  },
+  "author": "Mony Baruch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monybaruch/Calculator/issues"
+  },
+  "homepage": "https://github.com/monybaruch/Calculator#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
